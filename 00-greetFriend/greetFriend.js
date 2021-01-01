@@ -6,6 +6,7 @@ function greetFriend(name) {
   var greeting = "Hello, " + name + "!";
 
   return greeting;
+  // having difficulty commiting directly from Atom
 
 
 
