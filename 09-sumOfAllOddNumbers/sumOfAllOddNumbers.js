@@ -18,7 +18,7 @@ function sumOfAllOddNumbers(nums) {
   // It asks for the sum of all even sumOfAllOddNumbers
   // but the solution it wants is the count of all odd numbers
 
-  
+
 
   var oddCount = 0;
 
@@ -28,7 +28,7 @@ function sumOfAllOddNumbers(nums) {
   // length or size?
   for (i = 0; i < nums.length ; i++) { // ++i is better
 
-    if ((nums[i]%2) != 0) {
+    if ((nums[i]%2) != 0) { // ==1 should also work
 
       //  oddSum = oddSum + nums[i];
 

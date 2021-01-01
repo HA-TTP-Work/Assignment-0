@@ -5,7 +5,7 @@ function countOfAllBooleans(arr) {
   // maybe use every method?
   // use the array size?
 
-  // check if each element is equal to true or false
+  // check if each element is a boolean type
   // increment a counter
 
   var counter = 0;

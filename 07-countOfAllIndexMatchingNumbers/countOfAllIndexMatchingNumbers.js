@@ -3,18 +3,16 @@ function countOfAllIndexMatchingNumbers(nums) {
 
 
 
-
-
   var counter = 0;
 
 
-  // length or size?
-  for (i = 0; i < nums.length ; i++) { // ++i is better
+
+  for (i = 0; i < nums.length ; ++i) { // ++i is better since just increments
 
     if (nums[i] == i) {
 
-      counter++;
-      // ++ counter is better
+      ++counter;
+
 
 
     }
@@ -24,11 +22,6 @@ function countOfAllIndexMatchingNumbers(nums) {
 
 
   return counter;
-
-
-
-
-
 
 
 

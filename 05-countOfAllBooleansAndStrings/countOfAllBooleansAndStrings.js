@@ -12,7 +12,7 @@ function countOfAllBooleansAndStrings(arr) {
   // then check for string
 
 
-  // increment a counter
+  // increment counter
 
   // const modifier since we do not want to change what is passed?
 
@@ -20,12 +20,6 @@ function countOfAllBooleansAndStrings(arr) {
 
   // length or size?
   for (i = 0; i < arr.length ; i++) {
-    // should use < or <=
-    // both seem to work but one is better
-
-
-
-
 
 
 

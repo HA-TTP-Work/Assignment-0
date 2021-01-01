@@ -6,10 +6,12 @@ function fizzBuzz(start, end) {
 
   let array = [];
   // the empty array we will return
+  // not sure ehat let means
+  // should look it up
 
   for (var i = start; i <= end; ++i){
 
-    if ( (i%3 ==0) && (i %5 ==0)   ) {
+    if ( (i%3 == 0) && (i%5 == 0)   ) { // maybe add brackets
 
       array.push("FizzBuzz")
 

@@ -9,8 +9,7 @@ function isPalindrome(word) {
 
   // also are there any capital letters?
 
-  // can do this in 2 ways
-  // the first is by going through half of the word and checking the position index
+  // can do by going through half of the word and checking the position index
   // with length - the current position index
   // if we get one instance of not being the same we are done
   // if we finish and we never get false it is
@@ -22,7 +21,7 @@ function isPalindrome(word) {
   // is not needed
   // tried running the test cases without it and it still passes
 
-  //
+  // will keep though since it is better to have
 
   //var check = word;
 

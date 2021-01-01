@@ -10,7 +10,7 @@ function sumOfAllEvenNumbers(nums) {
   // need to find a better IDE
   // had issues with writing the wrong variable name
 
-  // This Assignment has a major problem
+  // This Assignment has a problem
   // It asks for the sum of all even sumOfAllEvenNumbers
   // but the solution it wants is the count of all even numbers
 
@@ -43,12 +43,6 @@ function sumOfAllEvenNumbers(nums) {
   return evenCount;
 
   // return evensum
-
-
-
-
-
-
 
 
 

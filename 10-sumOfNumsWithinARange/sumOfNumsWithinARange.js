@@ -2,7 +2,7 @@ function sumOfNumsWithinARange(nums, start, end) {
   // Insert code here;
 
 
-  // This Assignment has a major problem
+  // This Assignment has a problem
   // It asks for the sum of all even sumOfNumsWithinARange
   // but the solution it wants is the count of all numbers in that sumOfNumsWithinARange
 
@@ -39,12 +39,6 @@ function sumOfNumsWithinARange(nums, start, end) {
 
   return rangeCount;
   // return rangeSum;
-
-
-
-
-
-
 
 
 

@@ -22,29 +22,17 @@ function titleCaseEdit(title) {
   var changedTitle = ""; // what we will return
 
   for (let i = 0; i < tokens.length; i++) {
-    tokens[i] = tokens[i][0].toUpperCase() + tokens[i].substr(1); // + " "
+    tokens[i] = tokens[i][0].toUpperCase() + tokens[i].substr(1);
     // would be easier to understand by making a new string
+    // we are replacing the old word with one that has a capital first letter
 
-    //changedTitle = changedTitle + tokens[i];
 
-    // I like the join method better
-    // need to see how to get it to work
-
-    // need to add spaces I think
-
-    // maybe need to trim the final string
 
   }
 
   changedTitle = tokens.join(" ");
   // do not need to trim
   // if not passed anything will use comma to seperate
-
-  //return title;
-  //return tokens;
-
-  //changedTitle = changedTitle.trim();
-
   // maybe a better way to do this
 
   return changedTitle;

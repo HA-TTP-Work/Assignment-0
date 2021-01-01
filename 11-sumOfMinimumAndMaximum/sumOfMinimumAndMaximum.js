@@ -30,6 +30,10 @@ function sumOfMinimumAndMaximum(nums) {
 
   //sum = nums[0] + nums[nums.length -1];
   // this works so it is an exploit I guess
+  // since all test cases are sorted
+  // can just access the first and last elements directly
+  // this gives us an answer in constant time
+  // not a real solution though
 
 
   // want to see if pythons magic array works
@@ -49,6 +53,8 @@ function sumOfMinimumAndMaximum(nums) {
   var min = nums[0];
 
   for (i = 0; i < nums.length ; i++) { // ++i is better
+
+    // linear search of every item in the array
 
 
     if (max < nums[i]){
@@ -80,15 +86,6 @@ function sumOfMinimumAndMaximum(nums) {
 
 
   sum = max + min;
-
-
-
-
-
-
-
-
-
 
 
 
